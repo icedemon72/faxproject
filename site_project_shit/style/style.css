@@ -124,6 +124,10 @@ body {
     width: 100%;
 }
 
+.navbar_links .icon {
+    display: none;
+}
+
 .menu_items {
     height: 50px;
 }

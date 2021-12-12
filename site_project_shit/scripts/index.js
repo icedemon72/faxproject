@@ -10,3 +10,12 @@ const changeTheme = (dot = '') => {
         document.getElementById('themeImg').src = `${url}${dot}/images/night.png`;
     }
 }
+
+const dropDown = () => {
+    let x = document.getElementById('navbar');
+    if (x.className.includes('.navbar_links')) {
+      x.className = x.split('navbar_links')[0] + 'responsive';
+    } else {
+      x.className += ' .navbar_links';
+    }
+  }
