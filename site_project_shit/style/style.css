@@ -1,0 +1,192 @@
+body {
+    min-width: 215px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar_icon {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar_icon:hover {
+    cursor: pointer;
+}
+
+.number {
+    color: #a71115;
+    font-weight: bold;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.top_bar {
+    background-color: #e7e7e7;
+    border-bottom: 1px solid #d1d1d1;
+    height: 60px;
+}
+
+.site_header {
+    text-align: center;
+}
+
+.input_fields_div {
+    padding-top: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search_div {
+    border-radius: 100px;
+}
+
+.search_field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    outline: none;
+    color: #000000;
+    background-color: #e7e7e7;
+    border: 1px solid #d1d1d1;
+    transition: 0.3s;
+}
+
+.search_field:focus {
+    box-shadow: 0px -3px 0px #cacaca inset;
+}
+
+.search_button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+    background-color: #cacaca;
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+}
+
+.search_button:hover {
+    background-color: #a0a0a0;
+}
+
+.search_button img {
+    width: 50%;
+    height: 70%;
+}
+
+.search {
+    width: 100%;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+.input_form button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+.menu_div {
+    background-color: #e7e7e7;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1
+}
+
+.navbar_ a {
+    color: #000000;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar_ a:hover {
+    color: #a71115;
+    cursor: pointer;
+}
+
+.navbar_links {
+    width: 100%;
+}
+
+.menu_items {
+    height: 50px;
+}
+
+.menu_btn {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_btn a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.sign_in:hover {
+    cursor: pointer;
+}
+
+.account_sign_in {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s ease-in;
+}
+
+.sign_text {
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.3s ease-in;
+    text-align: center;
+}
+
+.sign_in:hover .sign_text {
+    color: #a71115;
+}
+
+.sign_in:hover div .account_sign_in {
+    background-color: #d1d1d1;
+    border-radius: 100%;
+}
+
+.home_div {
+    margin-top: 10px;
+}
+
+.bot_bar {
+    background-color: #e7e7e7;
+    border-bottom: 1px solid #d1d1d1;
+    height: auto;
+}
+
+.bot_header {
+    text-align: center;
+}
+
+.footer {
+    background-color: #000000;
+    text-align: center;
+    
+}
+
+.footer_text {
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 11px;
+}

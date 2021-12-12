@@ -1,0 +1,35 @@
+@media screen and (max-width: 577px) {
+    .block, .content_div {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .content-overlay, .content-image, .content_div {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content-details h3 {
+        color: #fff;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        margin-bottom: 0.1em;
+        text-transform: uppercase;
+    }
+    
+    .content-details p {
+        color: #fff;
+        font-size: 0.7em;
+    }
+
+    .content-overlay, .content-image, .content_div {
+        height: 200px;
+    }
+    .content:hover .details-left {
+        top: 16%;
+        left: 50%;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Store - Home</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/overlay.css">
+    <link rel="stylesheet" href="./style/media.css">
+</head>
+
+<body>
+
+    <noscript>Your browser doesn't support javascript...</noscript>
+
+    <!-- Header -->
+    <div class="container-fluid top_bar d-flex justify-content-center">
+        <div class="row-md-2 d-flex align-self-center">
+            <p class="number" onclick="copyTheNumber('+381641234567')" title="Click to copy...">Call us! +381 64 123 4567</p>
+        </div>
+    </div>
+
+    <!-- Site name, search field and Sign in, location and theme buttons-->
+    <div class="container-fluid input_fields_div">
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-md-3 col-sm-12">
+                <div class="row-fluid">
+                    <div class="col-md-2 col-sm-12 offset-md-5">
+                        <h1 class="site_header">Guitars</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="row input_div">
+                    <div class="col-12">
+                        <div class="search_div">
+                            <form action="/" method="GET" class="form">
+                                <input type="search" placeholder="Search keywords, catalog or item's ID..." class="search_field" />
+                                <button type="submit" class="search_button">
+                                    <img src="./images/search.png" />
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="col-fluid sign_in">
+                                <div class="row-sm-1 d-flex justify-content-center">
+                                    <img src="./images/account.png" class="account_sign_in" alt="login" />
+                                </div>
+                                <div class="row-sm-1 d-flex justify-content-center">
+                                    <p class="sign_text">Sign in</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="col-fluid sign_in">
+                                <div class="row-sm-1 d-flex justify-content-center">
+                                    <img src="./images/location.png" class="account_sign_in" alt="location" />
+                                </div>
+                                <div class="row-sm-1 d-flex justify-content-center">
+                                    <p class="sign_text">Our Stores</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="col-fluid sign_in" onclick="changeTheme()">
+                                <div class="row-sm-1 d-flex justify-content-center">
+                                    <img src="./images/day.png" id="themeImg" class="account_sign_in" alt="theme" />
+                                </div>
+                                <div class="row-sm-1 d-flex justify-content-center">
+                                    <p class="sign_text">Change Theme</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container-fluid menu_div">
+        <div class="row-md-12 row-sm-12 offset-lg-1">
+            <nav class="navbar navbar-expand-lg navbar_">
+                <div class="container-fluid">
+                    <div class="navbar-nav noselect align-items-center navbar_links">
+                        <a class="nav-link" href="#" class="active">Home</a>
+                        <a class="nav-link" href="#">Store</a>
+                        <a class="nav-link" href="#">About Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container-fluid content_container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-10 col-md-11 col-sm-12 content_div">
+                <div class="block">
+                    <a href="#">
+                        <div class="content block_left">
+                            <div class="content-overlay"></div>
+                            <img class="content-image c-left" src="./images/fender.jpg">
+                            <div class="content-details details-left fadeIn-bottom">
+                                <h3 class="content-title">Fender&reg; Guitars</h3>
+                                <p class="content-text">Search through our catalog featuring guitars made by Fender&reg;</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="content block_right">
+                            <div class="content-overlay"></div>
+                            <img class="content-image c-right" src="./images/gibson.jpg">
+                            <div class="content-details details-right fadeIn-top">
+                            <h3 class="content-title">Gibson&reg; Guitars</h3>
+                            <p class="content-text">Search through our catalog featuring guitars made by Gibson&reg;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row d-flex justify-content-center home_div">
+            <div class="col-lg-10 col-md-11 col-sm-12">
+                <h1>Kurac</h1>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum mi nisl, vel dictum mi laoreet et. Etiam convallis nisi et tellus sollicitudin, sit amet malesuada justo rutrum. In hac habitasse platea dictumst. Nunc consequat laoreet dignissim. Cras diam lacus, fringilla sed mattis in, hendrerit at arcu. Cras eget lacus sed magna feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus efficitur finibus felis sit amet consectetur. Sed bibendum tortor id turpis malesuada, sit amet euismod neque finibus. Proin diam velit, egestas et vulputate posuere, laoreet quis quam. Mauris ultricies ex odio, et aliquam nibh ornare at.
+
+                    Aliquam feugiat placerat ex vitae ultricies. Suspendisse sagittis at nisi rhoncus eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean malesuada nisi ipsum, sit amet vestibulum tellus tempus a. Vivamus commodo urna vel mauris mollis, et elementum tortor dignissim. Aliquam ultrices, purus at posuere consequat, tellus urna ultrices leo, sit amet lacinia leo elit ut lorem. Vestibulum semper risus vitae tortor congue, vitae fringilla nisi vestibulum. Donec vestibulum metus in enim posuere consectetur. Vestibulum eget sem ac ex blandit sollicitudin. Curabitur sollicitudin auctor elit, id tincidunt nisl commodo a. Nunc et sapien eu augue mattis consequat non id elit. Vestibulum venenatis rutrum felis, id cursus tellus efficitur et.
+                    
+                    Nullam porta hendrerit leo, ut accumsan ex rhoncus eget. Sed nec nisl a tellus scelerisque maximus. Nunc pharetra sem mi, vitae congue nulla fermentum sit amet. In hac habitasse platea dictumst. Vivamus non nisi id augue blandit ultricies. Suspendisse ut tellus leo. Phasellus neque diam, consequat in risus in, vestibulum sollicitudin ante. Praesent eu neque arcu. Fusce tristique pulvinar ex, at mollis sem dapibus et. Praesent a quam id ante varius pretium nec et purus. Donec nec nisi vel mi luctus blandit. Vestibulum bibendum tellus massa, sit amet dictum quam fermentum nec. In hac habitasse platea dictumst.
+                    
+                    Donec porttitor urna venenatis elit blandit rhoncus. Sed luctus tellus nec nisl pretium iaculis. Morbi feugiat ut nisl id gravida. Pellentesque vulputate sapien eget massa dapibus semper. Aliquam vulputate non dui quis scelerisque. Aenean et pellentesque purus. Praesent ac dui sit amet nulla tempus mollis. Aenean dignissim, ante ut scelerisque iaculis, elit nisi dapibus ipsum, id molestie leo metus a erat. Donec auctor feugiat nisl id scelerisque. Etiam sagittis massa eros, mollis sodales mi bibendum et. Aenean fermentum, enim eget lobortis faucibus, dui lacus pellentesque urna, volutpat gravida velit felis eu ante. Nulla vel bibendum tellus. Nam pretium ex vitae rutrum blandit. Pellentesque faucibus efficitur dolor, eu pellentesque ligula sodales vel. Mauris sapien ante, sodales in congue in, tempor ac leo. Pellentesque ac tristique lacus.
+                    
+                    Praesent quis sapien velit. Sed posuere luctus erat eu ultricies. Nulla facilisi. Duis ultricies magna eget commodo fermentum. Fusce lacus nulla, pharetra et risus nec, pulvinar consequat enim. Vivamus blandit nunc a lorem facilisis, sit amet facilisis ipsum laoreet. Cras faucibus quam sit amet placerat dictum. Proin a porta mi. Curabitur vel dolor vestibulum, gravida odio sed, aliquet risus. Nulla dictum pharetra risus, vitae consectetur justo pharetra in. Proin et ipsum porta ipsum aliquam mattis vel eu felis. Cras maximus facilisis justo a mattis. In nec metus molestie, rhoncus est vel, porttitor sapien. Donec aliquam nisi eget ullamcorper gravida. Morbi in nisl sit amet dolor dapibus sollicitudin.
+                    
+                    Nulla placerat velit lobortis dolor luctus rutrum. Vivamus eget mollis nibh. Praesent lobortis nulla risus, vitae iaculis magna auctor at. In ut eros vitae elit pellentesque tempor. Quisque vitae eros lacus. Phasellus vitae neque et ex vulputate feugiat. Cras in erat lectus. Quisque mi tortor, eleifend ut aliquet sit amet, tincidunt vel urna. Nulla ut aliquam purus. Suspendisse malesuada libero non libero gravida laoreet. Ut bibendum, neque eu tempor iaculis, felis dui pharetra erat, nec laoreet ex ex eu ligula. Duis in mollis sem.
+                    
+                    Nulla facilisi. Integer venenatis rhoncus est mollis accumsan. Duis ornare, justo vitae consequat imperdiet, orci mi placerat erat, quis imperdiet ipsum purus eget nisl. Vestibulum et rutrum erat. Curabitur eu volutpat massa. Vestibulum accumsan risus sit amet nisi laoreet accumsan. Suspendisse potenti. Integer non sapien enim. In ac finibus purus, a tincidunt tellus. Integer ac scelerisque erat. Proin vel nunc bibendum, aliquet risus mollis, gravida urna. Donec in efficitur libero, at tincidunt orci. Vivamus pulvinar ligula rhoncus aliquet facilisis.
+                    
+                    Nullam purus quam, scelerisque et quam at, rhoncus mollis ligula. Sed rhoncus dui sem. Phasellus quis sagittis ante, id rhoncus est. Curabitur in malesuada nibh, nec varius ex. Maecenas et venenatis odio, vitae convallis ante. Nullam tempus molestie tortor sit amet cursus. Nulla tincidunt purus non diam vestibulum consequat.
+                    
+                    Integer sollicitudin vehicula mi, in pretium ante suscipit ac. Nam eget viverra felis, ut mattis est. Sed dolor massa, aliquet ut tempor a, egestas non ex. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus venenatis libero eget malesuada. Vestibulum quis feugiat erat. Phasellus porttitor sem ut orci faucibus, a suscipit neque congue. Nullam interdum nunc eu lacus malesuada, vitae accumsan nibh aliquet. Ut a posuere turpis. Pellentesque mollis, orci eget finibus pulvinar, lacus augue imperdiet libero, eget porta enim est a enim. In hac habitasse platea dictumst. Cras facilisis ipsum sed nunc pharetra sagittis. Curabitur fermentum ligula fermentum, rhoncus risus quis, placerat sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    
+                    Praesent varius nec turpis at sollicitudin. Nulla euismod magna non ligula faucibus pellentesque. Morbi eget ex vehicula, rhoncus dui et, ultrices justo. In convallis purus ac neque dapibus tempor. Mauris venenatis, felis quis posuere suscipit, ante purus sollicitudin libero, in fringilla risus dolor eu justo. Curabitur ut sem luctus, efficitur leo non, malesuada erat. Sed egestas nibh ex, at dapibus turpis interdum vel. Vivamus tincidunt tincidunt finibus. Mauris et sapien et urna gravida convallis. Aliquam faucibus, dui sed gravida scelerisque, diam magna pulvinar ipsum, eget sodales ante libero in quam. Proin vitae leo blandit, maximus leo non, sodales ligula. Etiam vitae feugiat diam.</p>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center bot_bar">
+            <div class="col-lg-10 col-md-11 col-sm-12">
+                <h3 class="bot_header">Kurac palac kurac palac</h3>
+                
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center bot_content">
+            <div class="col-md-6 col-sm-12">
+                Contact Info                
+            </div>
+            <div class="col-md-6 col-sm-12">
+                Provide Feedback               
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-center footer">
+            <div class="col-6">
+                <p class="footer_text">Copyright ©2021 Guitar Store Inc.</p>
+            </div>
+            <div class="col-6">
+                <p class="footer_text">Development and Design: J. Isailovic</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+</body>
+
+</html>
