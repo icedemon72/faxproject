@@ -18,14 +18,16 @@
 
     <!-- Scroll To Top Button-->
     <a class="scroll_top" href="#target" title="Scroll to top">
-        <div id="scrollToTop">
-            <img class="scroll_img" src="./images/guitar-pick.png" alt="pick"/>
+        <div id="scrollToTop" onmouseover="changePick('over')" onmouseout="changePick('out')">
+            <img id="pick" class="scroll_img" src="./images/guitar-pick.png" alt="pick" />
         </div>
     </a>
+
     <!-- Header -->
     <div class="container-fluid top_bar d-flex justify-content-center">
         <div class="row-md-2 d-flex align-self-center">
-            <p class="number" onclick="copyTheNumber('+381641234567')" title="Click to copy...">Call us! +381 64 123 4567</p>
+            <p class="number" onclick="copyTheNumber('+381641234567')" title="Click to copy...">Call us! +381 64 123
+                4567</p>
         </div>
     </div>
 
@@ -33,12 +35,8 @@
     <div id="target" class="container-fluid input_fields_div">
         <div class="row d-flex justify-content-center">
 
-            <div class="col-md-3 col-sm-12">
-                <div class="row-fluid">
-                    <div class="col-md-2 col-sm-12 offset-md-5">
-                        <h1 class="site_header">Guitars</h1>
-                    </div>
-                </div>
+            <div class="col-md-3 col-sm-12 d-flex justify-content-center">
+                <h1 class="site_header">Guitars</h1>
             </div>
 
             <div class="col-md-6 col-sm-12">
@@ -46,7 +44,8 @@
                     <div class="col-12">
                         <div class="search_div">
                             <form action="/" method="GET" class="form">
-                                <input type="search" placeholder="Search keywords, catalog or item's ID..." class="search_field" />
+                                <input type="search" placeholder="Search keywords, catalog or item's ID..."
+                                    class="search_field" />
                                 <button type="submit" class="search_button">
                                     <img src="./images/search.png" />
                                 </button>
@@ -92,7 +91,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -105,21 +104,21 @@
         <div class="row-md-12 row-sm-12 offset-lg-1">
             <nav class="navbar navbar-expand-lg navbar-light navbar_">
                 <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav align-items-center navbar_links">
-                      <a class="nav-link" href="#">Home</a>
-                      <a class="nav-link" href="./pages/store.html">Store</a>
-                      <a class="nav-link" href="./pages/about_us.html">About Us</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav align-items-center navbar_links">
+                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="./pages/store.html">Store</a>
+                            <a class="nav-link" href="./pages/about_us.html">About Us</a>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </nav>
         </div>
-    </div> 
-    
+    </div>
+
     <!-- Content -->
     <div class="container-fluid content_container">
         <div class="row d-flex justify-content-center">
@@ -131,7 +130,8 @@
                             <img class="content-image c-left" src="./images/fender.jpg">
                             <div class="content-details details-left fadeIn-bottom">
                                 <h3 class="content-title">Fender&reg; Guitars</h3>
-                                <p class="content-text">Search through our catalog featuring guitars made by Fender&reg;</p>
+                                <p class="content-text">Search through our catalog featuring guitars made by Fender&reg;
+                                </p>
                             </div>
                         </div>
                     </a>
@@ -140,27 +140,34 @@
                             <div class="content-overlay"></div>
                             <img class="content-image c-right" src="./images/gibson.jpg">
                             <div class="content-details details-right fadeIn-top">
-                            <h3 class="content-title">Gibson&reg; Guitars</h3>
-                            <p class="content-text">Search through our catalog featuring guitars made by Gibson&reg;</p>
+                                <h3 class="content-title">Gibson&reg; Guitars</h3>
+                                <p class="content-text">Search through our catalog featuring guitars made by Gibson&reg;
+                                </p>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
-            
+
         </div>
 
         <!-- Text -->
         <div class="row d-flex justify-content-center home_div">
             <div class="col-lg-10 col-md-11 col-sm-12">
                 <h1>About Our Store</h1>
-                <p class="content_text">Discover the right guitar for you at our store. We are home to a large collection of electric, acoustic and bass guitars, amplifiers, keyboards, microphones and more. We have 10 stores across the Europe, and we offer the fastest and easiest way to find all you need in one place. If you are worried about shipping cost, we offer free shipping on many items from our collection no matter where you are from.
-                    
-                    Here you are sure to find the best gear at the lowest price and due to our wonderful and skillful staff, you are guaranteed to have a nice and enjoyable experience while shopping at our centers. 
+                <p class="content_text">Discover the right guitar for you at our store. We are home to a large collection of electric, acoustic and bass guitars, amplifiers, keyboards, microphones and more. We have 10 stores across the Europe, and we offer the fastest and easiest way to find all you need inone place. If you are worried about shipping cost, we offer free shipping on many items from ourcollection no matter where you are from. 
 
-                    You don't know how to play and you want to get started? Look no further because we even have the books (both hard-covered and ebooks) that are going to help you get into the groove quickly. 
+Here you are sure to find the best gear at the lowest price and due to our wonderful and skillful staff, you are guaranteed to have a nice and enjoyable experience while shopping at our centers.
 
-                    If you are looking for extra help with recording your music, you can contact us and you will get a fully produced and mixed song in 4-7 business days. You can even listen to some samples if you are looking for inspiration.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non nisi dolor. Donec quis nunc finibus ligula finibus pulvinar quis feugiat justo. Aenean suscipit eros et vehicula ornare. Pellentesque scelerisque, nisi et tempus pulvinar, lectus ligula pulvinar lacus, vel luctus ex enim sit amet est. Praesent quis fringilla erat, scelerisque imperdiet urna. Duis vel turpis vel nisi imperdiet aliquam. Nam viverra velit nec libero gravida, cursus eleifend libero rutrum. Phasellus ornare elementum turpis, eu pellentesque risus congue a.
+
+Mauris malesuada feugiat velit, sed ullamcorper leo iaculis ut. Vivamus pellentesque leo a elit imperdiet, vel eleifend metus ornare. Aenean ac ligula ac purus facilisis sagittis eget non sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id lacus iaculis, porttitor arcu eget, molestie quam. Cras euismod ultricies ipsum, in fringill lorem lobortis at. In tristique dolor id pellentesque rutrum. Proin posuere sagittis leo, in tincidunt risus aliquam a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vel massa at sem imperdiet sagittis. Vivamus tellus nulla, porttitor a ex eu, suscipit pretium lorem. In tincidunt, lacus gravida volutpat gravida, mi urna facilisis felis, at faucibus elit nibh in nisl. In bibendum velit vitae est vehicula.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non nisi dolor. Donec quis nunc finibus ligula finibus pulvinar quis feugiat justo. Aenean suscipit eros et vehicula ornare. Pellentesque scelerisque, nisi et tempus pulvinar, lectus ligula pulvinar lacus, vel luctus ex enim sit amet est. Praesent quis fringilla erat, scelerisque imperdiet urna. Duis vel turpis vel nisi imperdiet aliquam. Nam viverra velit nec libero gravida, cursus eleifend libero rutrum.
+
+Phasellus ornare elementum turpis, eu pellentesque risus congue a.
+
+Mauris malesuada feugiat velit, sed ullamcorper leo iaculis ut. Vivamus pellentesque leo a elit imperdiet, vel eleifend metus ornare. Aenean ac ligula ac purus facilisis sagittis eget non sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id lacus iaculis, porttitor arcu eget, molestie quam. Cras euismod ultricies ipsum, in fringill lorem lobortis at. In tristique dolor id pellentesque rutrum. Proin posuere sagittis leo, in tincidunt risus aliquam a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vel massa at sem imperdiet sagittis. Vivamus tellus nulla, porttitor a ex eu, suscipit pretium lorem. In tincidunt, lacus gravida volutpat gravida, mi urna facilisis felis, at faucibus elit nibh in nisl. In bibendum velit vitae est vehicula.
                 </p>
             </div>
         </div>
@@ -177,7 +184,7 @@
                         <button type="submit" class="email_button">Sign up</button>
                     </form>
                 </div>
-                
+
             </div>
         </div>
 

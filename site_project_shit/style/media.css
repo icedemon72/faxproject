@@ -33,7 +33,7 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
     .content-details h3 {
         color: #fff;
         font-weight: 500;
@@ -65,5 +65,10 @@
         width: 100%;
         text-align: center;
     }
+    .store_details, .store_text {
+        display: none;
+    }
+    .store_header {
+        margin-top: 10px;
+    }
 }
-

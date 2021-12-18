@@ -78,7 +78,7 @@ body {
 
 .site_header {
     text-align: center;
-}
+} 
 
 .input_fields_div {
     padding-top: 30px;
@@ -218,7 +218,7 @@ body {
 
 .content_text {
     text-align: justify;
-    white-space: pre-line;
+    white-space: pre-wrap;
 }
 
 .bot_content {
@@ -233,6 +233,10 @@ body {
     padding-bottom: 10px;
 }
 
+.bot_bar_store {
+    margin-top: 30px;
+}
+
 .bot_header {
     text-align: center;
 }
@@ -243,6 +247,7 @@ body {
 }
 
 .footer {
+    margin-top: 10px;
     background-color: #000000;
     text-align: center;
     
@@ -307,8 +312,112 @@ body {
     color: #000000;
 }
 
-
 .feedback_div:hover a {
     text-decoration: none;
     color: #000000;
 }
+
+/* Store */
+
+
+.store_header_div {
+    margin-bottom: 20px;
+}
+
+.store_items_border {
+    background-color: #e7e7e7;
+    border: 1px solid #d1d1d1;
+}
+
+.store_details {
+    border: 1px solid black;
+}
+
+.matches {
+    height: 100%;
+}
+
+.store_btn {
+    background-color: #ffffff;
+    margin: 1px;
+    padding: 5px;
+}
+
+.store_items_catalog {
+    border: 1px solid #d1d1d1;
+    border-top: 0px;
+}
+
+.store_btn:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0;
+}
+
+.btn_active {
+    background-color: #a71115;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.store_item_guitar {
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3 ease-in;
+}
+
+.store_item_guitar:hover {
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.store_details_title {
+    margin-bottom: 20px;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+}
+
+.store_details_title:hover {
+    cursor: pointer;
+    color: #a71115;
+}
+
+.category_div {
+    display: none;
+}
+
+.category_list {
+    list-style: none;
+}
+
+
+.guitar_img {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.guitar_price {
+    color: #a71115;
+    font-weight: bold;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: black;
+    font-weight: normal;
+}
+
+.guitar_price, .guitar_name {
+    margin-left: 10px;
+}
+
+.guitar_img:hover, .guitar_name:hover {
+    cursor: pointer;
+}
+
+.guitar_name:hover {
+    text-decoration: underline;
+}
+
+
