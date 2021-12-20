@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guitar Store - Store</title>
+    <link rel="shortcut icon" href="../images/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../style/bootstrap.min.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/media.css">
@@ -272,7 +273,7 @@
                     <div class="row">
                         <div class="col-lg-2 matches align-items-center">
                             <div class="row d-flex justify-content-center">
-                                <h5>24</h5>
+                                <h5 id="match">0</h5>
                             </div>
                             <div class="row d-flex justify-content-center">
                                 <h5>Matches</h5>
@@ -286,11 +287,11 @@
                     </div>
                 </div>
                 <div class="container-fluid store_items_catalog">
-                    <div class="row">
+                    <div class="row" id="count">
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_1.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_1.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender Eric Clapton Stratocaster MN BLK</p>
@@ -305,7 +306,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_2.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_2.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender American Vintage '58 Telecaster MN 2TSB</p>
@@ -320,7 +321,7 @@
                         
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_3.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_3.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender David Gilmour Signature Stratocaster (Black)</p>
@@ -335,7 +336,7 @@
                         
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_4.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_4.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender Ritchie Blackmore Strat Scalloped RW OWT</p>
@@ -350,7 +351,7 @@
                         
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_5.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_5.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender American Original '60s Jaguar RW 3TSB</p>
@@ -363,7 +364,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_6.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_6.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender Classic Player Jaguar Special RW CAR</p>
@@ -378,7 +379,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                         <div class="row store_item_image">
-                            <img class="guitar_img" src="../images/guitar_7.jpg" />
+                            <img class="guitar_img" alt="guitar" src="../images/guitar_7.jpg" />
                         </div>
                         <div class="row store_item_name">
                             <p class="guitar_name">Fender American Performer Mustang RW 3TSB</p>
@@ -391,7 +392,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_8.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_8.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender Traditional 70s Mustang Matching Head (Candy Apple Red)</p>
@@ -404,7 +405,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_9.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_9.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender GE Smith Telecaster MN HBL</p>
@@ -417,7 +418,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_10.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_10.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender Classic Player Baja Telecaster® MN BLK</p>
@@ -432,7 +433,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_11.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_11.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Fender Dave Murray Stratocaster MN BLK</p>
@@ -445,7 +446,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_12.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_12.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Gibson Les Paul X Trans Ebony</p>
@@ -460,7 +461,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_13.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_13.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Gibson SG Supra Antique Natura</p>
@@ -473,7 +474,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_14.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_14.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Gibson SG Tribute Future Min-ETune Ebony Vintage Gloss</p>
@@ -488,7 +489,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_15.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_15.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Gibson SG Deluxe Orange burst</p>
@@ -501,7 +502,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_16.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_16.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Gibson N-225 Heritage Cherry Vintage Gloss</p>
@@ -514,7 +515,7 @@
                         
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_17.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_17.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Gibson LP Supreme Translucent Ebony</p>
@@ -529,7 +530,7 @@
                         
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_18.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_18.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Gibson LP 50's Tribute Vintage Sunburst Vintage Gloss</p>
@@ -542,7 +543,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_19.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_19.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Epiphone Ltd Ed Mayday Monster Les Paul Standard Outfit</p>
@@ -557,7 +558,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_20.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_20.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Epiphone Prophecy Les Paul Custom Plus EX Outfit (EMG 81/85) Heritage Cherry Sunburst Gold</p>
@@ -570,7 +571,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_21.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_21.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Epiphone 1984 EXPLORER EX (EMG-81/85) EBONY</p>
@@ -583,7 +584,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_22.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_22.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Squier By Fender Classic Vibe Stratocaster® '60s RW 3TS</p>
@@ -596,7 +597,7 @@
 
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_23.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_23.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Squier By Fender Classic Vibe Stratocaster® '50s MN OWT</p>
@@ -609,7 +610,7 @@
                     
                         <div class="col-lg-3 col-md-4 col-sm-6 store_item_guitar">
                             <div class="row store_item_image">
-                                <img class="guitar_img" src="../images/guitar_24.jpg" />
+                                <img class="guitar_img" alt="guitar" src="../images/guitar_24.jpg" />
                             </div>
                             <div class="row store_item_name">
                                 <p class="guitar_name">Squier By Fender Vintage Modified Surf Stratocaster® RW SNB</p>
@@ -713,7 +714,7 @@
             </div>
         </div>
     </div>
-
+    <script src="../scripts/store.js"></script>
     <script src="../scripts/index.js"></script>
     <script src="../scripts/bootstrap.bundle.min.js"></script>
 </body>
