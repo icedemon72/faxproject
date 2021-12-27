@@ -63,6 +63,7 @@ body {
 .number {
     color: #a71115;
     font-weight: bold;
+    margin-top: 16px;
 }
 
 .tooltip:hover .tooltiptext {
@@ -323,6 +324,10 @@ body {
     margin-bottom: 20px;
 }
 
+.store_header {
+    margin-top: 10px;
+}
+
 .store_items_border {
     background-color: #e7e7e7;
     border: 1px solid #d1d1d1;
@@ -449,3 +454,30 @@ body {
 
 /* Fender / Gibson */
 
+.fender {
+    font-family: 'Lobster', cursive;
+}
+
+.gibson {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.car_div {
+    margin-bottom: 20px;
+}
+
+/* Contact Us */
+
+.contact_card {
+    background-color: #e7e7e7;
+}
+
+.contact_btn {
+    background-color: #a71115;
+    color: #ffffff;
+}
+
+.contact_btn:hover {
+    background-color: #c4363b;
+    color: #ffffff;
+}
