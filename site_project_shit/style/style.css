@@ -466,6 +466,16 @@ body {
     margin-bottom: 20px;
 }
 
+.carousel_b {
+    border: 0;
+    background: none;
+}
+
+.carousel_t {
+    color: #000000;
+    font-weight: bolder;
+}
+
 /* Contact Us */
 
 .contact_card {
